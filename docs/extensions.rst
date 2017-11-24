@@ -7,7 +7,7 @@ The core agate library is designed rely on as few dependencies as possible. Howe
 Using extensions
 ================
 
-agate support's plugin-style extensions using a monkey-patching pattern. Libraries can be created that add new methods onto :class:`.Table` and :class:`.TableSet`. For example, `agate-sql <http://agate-sql.rtfd.org/>`_ adds the ability to read and write tables from a SQL database:
+agate supports plugin-style extensions using a monkey-patching pattern. Libraries can be created that add new methods onto :class:`.Table` and :class:`.TableSet`. For example, `agate-sql <http://agate-sql.rtfd.org/>`_ adds the ability to read and write tables from a SQL database:
 
 .. code-block:: python
 
